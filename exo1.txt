@@ -1,0 +1,63 @@
+    1  $ sudo apt install xpad
+    2  apt install xpad
+    3  sudo add-apt-repository ppa:umang/indicator-stickynotes
+    4  sudo apt-get update
+    5  sudo apt-get install indicator-stickynotes
+    6  exit
+    7  libreoffice 
+    8  readxl
+    9  readxli;port readxl
+   10  library(readxl)
+   11  student <- read_excel("lab1.xlsx", sheet = "Ex1") #Upload the data
+   12  install.packages("tidyverse")
+   13  followers <- read_excel("lab1.xlsx", sheet = "Ex1") #Upload the data
+   14  library(readxl)
+   15  followers <- read_excel("lab1.xlsx", sheet = "Ex1") #Upload the data
+   16  ls
+   17  mkdir unis
+   18  clear
+   19  ls
+   20  mkdir unix
+   21  cd unix
+   22  touch foo.txt
+   23  copy foo.txt foo-copy.txt
+   24  cp foo.txt foo-copy.txt
+   25  ls
+   26  mv foot-copy.txt foo2.txt
+   27  mv foot-copy foo2
+   28  mv foo-copy.txt foo2.txt
+   29  ls
+   30  mldir data
+   31  mkdir data
+   32  mv foo2.txt /data/
+   33  mv foo2.txt /data
+   34  ls
+   35  pwd 
+   36  mv foo2.txt /home/students-asn30/unix/data
+   37  ls
+   38  cd data
+   39  ls
+   40  cd ..
+   41  mkdir new
+   42  mv /home/students-asn30/unix/data/foo2.txt /home/students-asn30/unix/new
+   43  cd new
+   44  ls
+   45  cd ..
+   46  mv /home/students-asn30/unix/new/foo2.txt /home/students-asn30/unix
+   47  ls
+   48  mv foo.txt foo-old.txt
+   49  ls
+   50  del foo-old.txt
+   51  rm foo-old.txt
+   52  ls
+   53  del new
+   54  rm new
+   55  ls
+   56  cd new
+   57  ls
+   58  cd ..
+   59  rm -r new
+   60  ls
+   61  git status
+   62  git branch
+   63  history>>exo1.txt
